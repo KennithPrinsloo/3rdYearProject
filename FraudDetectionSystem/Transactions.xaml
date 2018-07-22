@@ -1,0 +1,24 @@
+﻿<Window x:Class="FraudDetectionSystem.Transactions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FraudDetectionSystem"
+        mc:Ignorable="d"
+        Title="TransactionTest" Height="450" Width="923.496">
+    <Grid>
+
+        <ListBox HorizontalAlignment="Left" Height="368" Margin="10,41,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label Content="Transaction List:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="368" Margin="10,41,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label Content="Transaction List:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="368" Margin="440,41,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label Content="Fraudulent Transactions:" HorizontalAlignment="Left" Margin="440,10,0,0" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="368" Margin="685,41,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label Content="Non-Fraudulent Transactions:" HorizontalAlignment="Left" Margin="685,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="246,292,0,0" VerticalAlignment="Top" Width="177" Height="35" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="246,332,0,0" VerticalAlignment="Top" Width="177" Height="35" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="246,372,0,0" VerticalAlignment="Top" Width="177" Height="35" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
